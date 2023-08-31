@@ -1,0 +1,45 @@
+---> createTask()
+---> createTask()
+DAQ_TASK_NAME = SOMETHING_NEW
+DAQ_TASK_NAME = SOMETHING_NEW
+---> createTask()
+DAQ_TASK_NAME = SOMETHING_NEW
+taskHandle = 0
+taskHandle = 0
+&taskHandle = 6299816
+taskHandle = 0
+&taskHandle = 6299816
+&taskHandle = 6299816
+---> createTask()
+DAQ_TASK_NAME = SOMETHING_NEW
+taskHandle = 0
+&taskHandle = 6299816
+createTaskStatus = 0
+After createTask() ---> taskHandle = 889512416
+createTaskStatus = -200089
+createTaskStatus = -200089
+createTaskStatus = -200089
+DAQmx Error: Task name specified conflicts with an existing task name.
+Task Name: SOMETHING_NEW
+
+Status Code: -200089
+After createTask() ---> taskHandle = 0
+DAQmx Error: Task name specified conflicts with an existing task name.
+Task Name: SOMETHING_NEW
+
+Status Code: -200089
+After createTask() ---> taskHandle = 0
+DAQmx Error: Task name specified conflicts with an existing task name.
+Task Name: SOMETHING_NEW
+
+Status Code: -200089
+After createTask() ---> taskHandle = 0
+DAQmx Error: Task specified is invalid or does not exist.
+Status Code: -200088
+DAQmx Error: Task specified is invalid or does not exist.
+Status Code: -200088
+startTask() ---> taskHandle = 0
+DAQmx Error: Task specified is invalid or does not exist.
+Status Code: -200088
+DAQmx Error: Task specified is invalid or does not exist.
+Status Code: -200088
